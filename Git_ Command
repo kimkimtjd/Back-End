@@ -1,0 +1,7 @@
+git add .	: 전체 파일을 깃에 적용하겠다
+git commit -m "<TEXT>" : 깃에 올릴때 적용할 커밋 메시지
+git push : 깃 서버에 업로드
+git pull : 깃 서버에서 다운로드
+git remote add origin ssh://marketb@api.marketb.kr:2605/home/marketb/git/jketb/ :		깃 서버를 연결
+git push --set-upstream origin master	: 깃 서버에 최초 업로드시 사용
+git clone ssh://marketb@api.marketb.kr:2605/home/marketb/git/jketb/	: 깃 서버는 여러 곳에서 가져올때 사용
