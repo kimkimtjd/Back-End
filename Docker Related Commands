@@ -1,0 +1,29 @@
+git 명령어
+
+git add .	수정된 모든 소스를 깃에 호출
+git commit -m "메시지"		git commit 명령어			
+git push		커밋한 소스를 git 서버에 올리는 명령어			
+git pull		git 서버의 소스를 가져오는 명령어			
+git reset --hard HEAD		충돌시 덮어쓰기			
+
+Docker 명령어
+
+docker ps (-a)		docker로 돌아가고있는 컨테이너 명령			
+docker logs -f --tail 100 <컨테이너명>		"로그 확인
+(예시, docker logs --tail 100 -f api.marketb.kr)"			
+docker build -t <이미지명> .		Dockerfile 이미지 생성			
+docker-compose up -d(옵션)		docker-compose.yml 파일 실행			
+docker run/start <명령어>		컨테이너 실행			
+docker restart <컨테이너명>		멈춰있는 컨테이너를 재실행			
+
+Ubuntu 명령어
+
+cd		계정 기본 폴더로 이동		
+cd ..		상위 폴더로 이동			
+sh (sh 파일명)					
+ls		폴더 정보 보기			
+mv -R(폴더이동시) <이동할 폴더/파일> <이동될 폴더/파일>		이동			
+rm -R(폴더 삭제시) <파일/폴더>		파일 삭제			
+cp <파일/폴더> <이동할 폴더>		파일 복사			
+apt-get update -y		패키지 관리자 업데이트			
+apt-get upgrade -y		패키지 관리자 업그레이드			
