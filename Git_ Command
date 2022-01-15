@@ -1,4 +1,7 @@
 git add .	: 전체 파일을 깃에 적용하겠다
+순서
+git init
+git remote add origin GITHUB_PUBLIC_REPOSITORY_URL
 git commit -m "<TEXT>" : 깃에 올릴때 적용할 커밋 메시지
 git push : 깃 서버에 업로드
 git pull : 깃 서버에서 다운로드
