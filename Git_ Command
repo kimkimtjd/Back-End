@@ -8,3 +8,11 @@ git pull : 깃 서버에서 다운로드
 git remote add origin ssh://marketb@api.marketb.kr:2605/home/marketb/git/jketb/ :		깃 서버를 연결
 git push --set-upstream origin master	: 깃 서버에 최초 업로드시 사용
 git clone ssh://marketb@api.marketb.kr:2605/home/marketb/git/jketb/	: 깃 서버는 여러 곳에서 가져올때 사용
+
+
+
+--> 초기 셋팅후 코드 올리는 순서
+# git add .
+# git commit -m "메시지 내용"
+# git push origin {브랜치명}
+ 
